@@ -38,3 +38,14 @@ p{
 .center-item{
   margin-left: 45%;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card-container .card {
+  flex: 0 0 24%; /* Four cards per row with equal width */
+  margin-bottom: 10px;
+}
