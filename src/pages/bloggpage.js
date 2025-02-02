@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import React from "react";
 import ModalButton from "../components/modal"
+import ModalButtonTwo from "../components/viewModal"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import axios from "axios"
@@ -26,7 +27,8 @@ const BloggPage = () => {
             <Card.Text>
               {bloggDis.content}
             </Card.Text>
-            <Button variant="primary">View in pop up</Button>
+            {/* <ModalButtonTwo/> */}
+            {/* <Button variant="primary">View in pop up</Button> */}
           </Card.Body>
         </Card>
 ))}
